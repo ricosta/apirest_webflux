@@ -1,5 +1,5 @@
 package com.apirest.webflux;
-
+/*
 import com.apirest.webflux.document.Playlist;
 import com.apirest.webflux.repository.PlaylistRepository;
 import org.springframework.boot.CommandLineRunner;
@@ -32,3 +32,4 @@ public class DummyData implements CommandLineRunner {
     }
 
 }
+*/
