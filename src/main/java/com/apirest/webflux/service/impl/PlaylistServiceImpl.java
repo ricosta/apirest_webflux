@@ -15,16 +15,21 @@ public class PlaylistServiceImpl implements PlaylistService {
     PlaylistRepository repository;
 
 
+    //Obtem todas as playlists
     @Override
     public Flux<Playlist> findAll() {
         return repository.findAll();
     }
 
+
+    //Obtem apenas uma playlist
     @Override
     public Mono<Playlist> findById(String id) {
         return repository.findById(id);
     }
 
+
+    //Salva os dados na base
     @Override
     public Mono<Playlist> save(Playlist playlist) {
         return repository.save(playlist);
